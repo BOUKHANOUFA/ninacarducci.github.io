@@ -45,6 +45,7 @@ body {
 #about {
 	display: flex;
 	background-color: #F6D2B8;
+	color: #222;
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
@@ -102,7 +103,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #a59d45;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -163,6 +164,7 @@ img {
 #services {
 	margin: auto;
 	background-color: #A8D5D8 ;
+	color: #1a1a1a;
 	position: relative;
 }
 #services .container::before{
@@ -198,6 +200,7 @@ img {
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
+	color: #222;
 	position: relative;
 	padding-inline: 100px;
 	padding-block: 100px;
@@ -246,6 +249,8 @@ form textarea {
 }
 input[type="submit"] {
 	background-color: #BEB45A;
+	color: #000; 
+	font-weight: bold;
 	padding: .5em 1em
 }
 
